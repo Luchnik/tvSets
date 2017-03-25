@@ -1,0 +1,26 @@
+<div class="container">
+
+  <h1 class="text-center text-danger">{{ title }}</h1>
+
+  <ul>
+    <li *ngFor="let tv of tvsets" class="alert alert-warning alert-dismissable fade in">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <img class="img-thumbnail" alt="{{ tv.title }}" src="{{ tv.img }}">
+        </div>
+
+        <div class="col-sm-8">
+          <h3>{{ tv.title }}</h3>
+          <p>{{ tv.description }}</p>
+          <p>Price: {{ tv.price | currency:'EUR':true }}</p>
+          <p *ngIf="tv.inStock > 0">In stock <span class="label label-success">{{ tv.inStock }}</span></p>
+          <p *ngIf="tv.inStock === 0"><span class="label label-danger">Out of stock</span></p>
+        </div>
+      </div>
+      
+    </li>
+  </ul>
+
+</div> 

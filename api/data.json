@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "img": "http://s7d2.scene7.com/is/image/SamsungUS/QLED_primary-selection_031317_1905_330px?$primary-selection-png$",
+      "title": "QLED TV",
+      "description": "The Next Innovation in TV. Perfect color. Boundless design. Smarter than ever.",
+      "price": 12000,
+      "inStock": 5
+    },
+    {
+      "id": 2,
+      "img": "http://s7d2.scene7.com/is/image/SamsungUS/PUHD-1_primaryselection_031317_1739_330px?$primary-selection-png$",
+      "title": "Premium UHD TVs",
+      "description": "An extreme step up in picture quality. See what you have been missing.",
+      "price": 12500,
+      "inStock": 3
+    },
+    {
+      "id": 3,
+      "img": "http://s7d2.scene7.com/is/image/SamsungUS/PUHD_primary-selection_031317_1736_330px?$primary-selection-png$",
+      "title": "UHD TVs",
+      "description": "Enter a world with more color and stunning 4K clarity",
+      "price": 14000,
+      "inStock": 0
+    },
+    {
+      "id": 4,
+      "img": "http://s7d2.scene7.com/is/image/SamsungUS/Full%20HD_primary-selection_031317_1638_330px?$primary-selection-png$",
+      "title": "Full HD TVs",
+      "description": "Crisp high-definition picture quality for enriched viewing.",
+      "price": 13500,
+      "inStock": 2
+    }
+  ]
