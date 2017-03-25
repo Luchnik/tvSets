@@ -10,11 +10,11 @@ export class AppComponent {
   title = 'Samsung TV sets';
 
   tvsets: any;
+  dataUrl = 'api/data.json';
  
   constructor(private http: Http) {
-    this.http.get('api/data.json').subscribe(response => {
+    this.http.get(this.dataUrl).subscribe(response => {
       this.tvsets = response.json();
-      //console.log(this.tvsets);
     });
   }
 
