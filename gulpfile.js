@@ -6,6 +6,6 @@ gulp.task('log', function() {
   gutil.log('Starting the server');
 });
 
-gulp.task('serve', shell.task('serve'))
+gulp.task('serve', shell.task('serve'));
 
 gulp.task('default', ['log', 'serve']);
